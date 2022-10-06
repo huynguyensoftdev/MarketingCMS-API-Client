@@ -4,5 +4,5 @@
   $adminsite="localhost/admin";
   $clientsite="localhost";
   $json = file_get_contents($adminsite.'/postapi');
-  $data = json_decode($json);
+  $datas = json_decode($json);
 ?>
